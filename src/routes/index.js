@@ -1,8 +1,8 @@
 import { Router } from "express";
-import checkout from "./checkout.js";
+import product from "./products.js";
 
 const router = Router();
 
-router.get("/checkout", checkout);
+router.use("/product", product);
 
 export default router;

@@ -1,13 +1,15 @@
 import mongoose from "mongoose";
+import colors from "colors";
 import { exit } from "node:process";
+import winstonLogger from "../utils/winston.util.js";
 
 export const connectDB = async () => {
   try {
     const { connection } = await mongoose.connect(process.env.DATABASE_URL);
     const url = `${connection.host}:${connection.port}`;
-    console.log(`Mongo Connected to: ${url}`);
+    winstonLogger.info(`Mongo Connected to: ${url}`);
   } catch (error) {
-    console.log("Error connecting to MongoDB");
+    winstonLogger.error(colors.red.bold("Error connecting to MongoDB"));
     exit(1);
   }
 };
