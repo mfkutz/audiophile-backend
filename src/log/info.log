@@ -52,3 +52,9 @@
 [34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-02-11T13:00:51.438Z"}
 [34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-02-11T13:01:39.471Z"}
 [34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-02-11T13:07:16.378Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-02-11T19:12:31.704Z"}
+[31mfatal[39m: POST /api/product - CORS ERROR {"timestamp":"2025-02-11T19:17:51.773Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-02-11T19:18:22.498Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-02-11T19:24:42.071Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-02-11T19:24:45.652Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-02-11T19:30:55.746Z"}

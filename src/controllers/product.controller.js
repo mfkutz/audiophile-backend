@@ -13,7 +13,6 @@ export class ProductController {
   static async createProduct(req, res, next) {
     try {
       const newProduct = await ProductService.createNewProduct(req.body);
-      console.log("Capturando?", newProduct);
       res.status(201).json(newProduct);
     } catch (error) {
       next(error);

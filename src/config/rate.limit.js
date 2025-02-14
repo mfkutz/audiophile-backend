@@ -10,7 +10,7 @@ const loginLimiter = rateLimit({
 //  More relaxed limit for general API requests
 const apiLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
-  max: 10,
+  max: 150,
   message: "Too many requests, please try again later.",
 });
 
