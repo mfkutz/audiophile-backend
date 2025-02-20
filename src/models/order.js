@@ -2,7 +2,6 @@ import { Schema, model } from "mongoose";
 
 const OrderSchema = new Schema(
   {
-    orderId: { type: String, unique: true },
     customer: {
       name: { type: String, required: true },
       email: { type: String, required: true },
@@ -13,17 +12,15 @@ const OrderSchema = new Schema(
       country: { type: String, required: true },
     },
     payment: {
-      method: { type: String, required: true },
       eMoneyNumber: { type: String },
       eMoneyPin: { type: String },
     },
-    products: [
+    orderItems: [
       {
-        product: { type: Schema.Types.ObjectId, ref: "Product" },
+        productId: { type: Schema.Types.ObjectId, ref: "Product" },
         quantity: { type: Number, required: true },
       },
     ],
-    total: { type: Number, required: true },
   },
   { timestamps: true }
 );

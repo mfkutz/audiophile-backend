@@ -7,6 +7,12 @@ const loginLimiter = rateLimit({
   message: "Too many login attempts. Try again later.",
 });
 
+const orderLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 5,
+  message: "Too many request, please try in a short time.",
+});
+
 //  More relaxed limit for general API requests
 const apiLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
@@ -16,5 +22,6 @@ const apiLimiter = rateLimit({
 
 export function applyRateLimit(app) {
   app.use("/api/auth/login", loginLimiter);
+  // app.use("/api/order", orderLimiter);
   app.use("/api", apiLimiter); // Apply to all other routes
 }
