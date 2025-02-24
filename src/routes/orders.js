@@ -5,7 +5,8 @@ import { handleInputErrors } from "../middlewares/validation.js";
 
 const router = Router();
 
-router.post("/", validateCreateOrder, handleInputErrors, OrderController.createOrder);
+router.post("/", handleInputErrors, OrderController.createOrder);
 router.get("/", OrderController.getAll);
+router.get("/:id", OrderController.getOrderById);
 
 export default router;

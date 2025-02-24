@@ -18,9 +18,13 @@ const OrderSchema = new Schema(
     orderItems: [
       {
         productId: { type: Schema.Types.ObjectId, ref: "Product" },
+        name: { type: String, required: true },
+        unitPrice: { type: Number, required: true },
+        imageUrl: { type: String, required: true },
         quantity: { type: Number, required: true },
       },
     ],
+    totalAmount: { type: Number, required: true },
   },
   { timestamps: true }
 );

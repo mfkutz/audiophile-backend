@@ -52,4 +52,6 @@ export const validateCreateOrder = [
 
   body("orderItems").isArray({ min: 1 }).withMessage("At least one item is required"),
   body("orderItems.*.productId").isMongoId().withMessage("Invalid productId"),
+
+  //TO DO - validate name, unitPrice, imageUrl, quantity
 ];

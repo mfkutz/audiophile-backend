@@ -12,12 +12,22 @@ export class OrderController {
 
   static async createOrder(req, res, next) {
     try {
-      const { customer, payment, orderItems } = req.body;
-      const newOrder = await OrderServices.createOrder({ customer, payment, orderItems });
+      const { customer, payment, orderItems, totalAmount } = req.body;
+      const newOrder = await OrderServices.createOrder({ customer, payment, orderItems, totalAmount });
       res.status(201).json({
         message: "Order created successfully",
         order: newOrder,
       });
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  static async getOrderById(req, res, next) {
+    try {
+      const { id } = req.params;
+      const order = await OrderServices.getOrderById(id);
+      res.status(200).json(order);
     } catch (error) {
       next(error);
     }

@@ -8,4 +8,8 @@ export class OrderRepository {
   static async create(data) {
     return await OrderModel.create(data);
   }
+
+  static async getById(orderId) {
+    return await OrderModel.findById(orderId);
+  }
 }

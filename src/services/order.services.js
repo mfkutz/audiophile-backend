@@ -26,4 +26,10 @@ export class OrderServices {
     const newOrder = await OrderRepository.create(data);
     return newOrder;
   }
+
+  static async getOrderById(orderId) {
+    const order = await OrderRepository.getById(orderId);
+    if (!order) return CustomError.newError(errors.notFound, "Order not found");
+    return order;
+  }
 }
