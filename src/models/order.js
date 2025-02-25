@@ -25,6 +25,7 @@ const OrderSchema = new Schema(
       },
     ],
     totalAmount: { type: Number, required: true },
+    shippingCost: { type: Number, required: true },
   },
   { timestamps: true }
 );

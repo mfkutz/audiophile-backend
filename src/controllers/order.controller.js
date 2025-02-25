@@ -12,8 +12,8 @@ export class OrderController {
 
   static async createOrder(req, res, next) {
     try {
-      const { customer, payment, orderItems, totalAmount } = req.body;
-      const newOrder = await OrderServices.createOrder({ customer, payment, orderItems, totalAmount });
+      const { customer, payment, orderItems, totalAmount, shippingCost } = req.body;
+      const newOrder = await OrderServices.createOrder({ customer, payment, orderItems, totalAmount, shippingCost });
       res.status(201).json({
         message: "Order created successfully",
         order: newOrder,

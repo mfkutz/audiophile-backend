@@ -13,16 +13,6 @@ export class OrderServices {
   }
 
   static async createOrder(data) {
-    /* data.orderItems = data.orderItems.map((item) => {
-      if (!mongoose.Types.ObjectId.isValid(item.productId)) {
-        throw CustomError.newError(errors.badRequest, `Invalid productId: ${item.productId}`);
-      }
-      return {
-        productId: new mongoose.Types.ObjectId(item.productId),
-        quantity: item.quantity,
-      };
-    }); */
-
     const newOrder = await OrderRepository.create(data);
     return newOrder;
   }

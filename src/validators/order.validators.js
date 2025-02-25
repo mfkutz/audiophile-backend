@@ -53,5 +53,46 @@ export const validateCreateOrder = [
   body("orderItems").isArray({ min: 1 }).withMessage("At least one item is required"),
   body("orderItems.*.productId").isMongoId().withMessage("Invalid productId"),
 
-  //TO DO - validate name, unitPrice, imageUrl, quantity
+  body("orderItems.*.name")
+    .notEmpty()
+    .withMessage("Name of product is required")
+    .isString()
+    .withMessage("Name of product must be a string"),
+  body("orderItems.*.unitPrice")
+    .notEmpty()
+    .withMessage("Price of product is required")
+    .isNumeric()
+    .withMessage("Price of product must be a number"),
+  body("orderItems.*.imageUrl")
+    .notEmpty()
+    .withMessage("Image of product is required")
+    .isString()
+    .withMessage("Image of product must be a string"),
+  body("orderItems.*.quantity")
+    .notEmpty()
+    .withMessage("Quantity of product is required")
+    .isNumeric()
+    .withMessage("Quantity of product must be a number"),
+
+  body("shippingCost")
+    .notEmpty()
+    .withMessage("Shipping cost is required")
+    .isNumeric()
+    .withMessage("Shipping cost must be a number"),
+
+  body("totalAmount")
+    .notEmpty()
+    .withMessage("Total amount is required")
+    .isNumeric()
+    .withMessage("Total amount must be a number")
+    .custom((value, { req }) => {
+      const calculatedTotal = req.body.orderItems.reduce(
+        (sum, item) => sum + item.unitPrice * item.quantity,
+        req.body.shippingCost
+      );
+      if (value !== calculatedTotal) {
+        throw new Error("Total amount does not match the sum of order items");
+      }
+      return true;
+    }),
 ];
