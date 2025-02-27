@@ -140,3 +140,4 @@
 [34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-02-25T00:22:53.416Z"}
 [34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-02-25T11:51:57.509Z"}
 [34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-02-26T10:27:42.588Z"}
+[31mfatal[39m: GET /api/product - READ ECONNRESET {"timestamp":"2025-02-26T19:24:57.869Z"}

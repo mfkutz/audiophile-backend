@@ -75,3 +75,4 @@
 [33merror[39m: GET /api/order/67bd071e47efaf29f5f9634e - ORDER NOT FOUND {"timestamp":"2025-02-25T00:20:42.603Z"}
 [31mfatal[39m: POST /api/order - SHIPPINGCOST IS NOT DEFINED {"timestamp":"2025-02-25T00:21:06.801Z"}
 [31mfatal[39m: POST /api/order - SHIPPINGCOST IS NOT DEFINED {"timestamp":"2025-02-25T00:22:19.759Z"}
+[31mfatal[39m: GET /api/product - READ ECONNRESET {"timestamp":"2025-02-26T19:24:57.869Z"}
