@@ -8,4 +8,12 @@ export class ProductRepository {
   static async create(data) {
     return await ProductModel.create(data);
   }
+
+  static async getProductById(id) {
+    return await ProductModel.findById(id);
+  }
+
+  static async deleteProductById(id) {
+    return await ProductModel.findByIdAndDelete(id);
+  }
 }

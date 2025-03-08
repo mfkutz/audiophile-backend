@@ -18,4 +18,24 @@ export class ProductController {
       next(error);
     }
   }
+
+  static async getProductById(req, res, next) {
+    try {
+      const { id } = req.params;
+      const product = await ProductService.getProductById(id);
+      res.status(200).json(product);
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  static async deleteProductById(req, res, next) {
+    try {
+      const { id } = req.params;
+      const product = await ProductService.deleteProductById(id);
+      res.status(200).json({ message: "Product deleted", product });
+    } catch (error) {
+      next(error);
+    }
+  }
 }

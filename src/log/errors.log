@@ -76,3 +76,17 @@
 [31mfatal[39m: POST /api/order - SHIPPINGCOST IS NOT DEFINED {"timestamp":"2025-02-25T00:21:06.801Z"}
 [31mfatal[39m: POST /api/order - SHIPPINGCOST IS NOT DEFINED {"timestamp":"2025-02-25T00:22:19.759Z"}
 [31mfatal[39m: GET /api/product - READ ECONNRESET {"timestamp":"2025-02-26T19:24:57.869Z"}
+[31mfatal[39m: POST /api/order - CORS ERROR {"timestamp":"2025-03-04T20:16:55.387Z"}
+[31mfatal[39m: GET /api/product - CORS ERROR {"timestamp":"2025-03-05T12:10:17.702Z"}
+[31mfatal[39m: GET /api/product - CORS ERROR {"timestamp":"2025-03-05T12:10:20.829Z"}
+[31mfatal[39m: GET /api/product - CORS ERROR {"timestamp":"2025-03-05T12:10:27.266Z"}
+[31mfatal[39m: GET /api/product - CORS ERROR {"timestamp":"2025-03-05T12:10:44.337Z"}
+[31mfatal[39m: GET /api/product - CORS ERROR {"timestamp":"2025-03-06T14:37:13.172Z"}
+[33merror[39m: GET /api/order - THERE ARE NO ORDERS YET {"timestamp":"2025-03-07T14:51:29.158Z"}
+[33merror[39m: GET /api/order - THERE ARE NO ORDERS YET {"timestamp":"2025-03-07T14:51:37.586Z"}
+[31mfatal[39m: GET /api/product - CORS ERROR {"timestamp":"2025-03-08T13:55:15.821Z"}
+[31mfatal[39m: POST /api/product - CORS ERROR {"timestamp":"2025-03-08T13:55:15.846Z"}
+[31mfatal[39m: GET /api/product - CORS ERROR {"timestamp":"2025-03-08T13:55:42.415Z"}
+[31mfatal[39m: GET /api/product/67cc536f5e434e6fc638002 - CAST TO OBJECTID FAILED FOR VALUE "67CC536F5E434E6FC638002" (TYPE STRING) AT PATH "_ID" FOR MODEL "PRODUCT" {"timestamp":"2025-03-08T14:37:30.547Z"}
+[33merror[39m: DELETE /api/product/67cc5816f1e591c3b94865dc - THERE ARE NO PRODUCT WITH THIS ID {"timestamp":"2025-03-08T14:54:23.410Z"}
+[33merror[39m: DELETE /api/product/67cc5816f1e591c3b94865dc - THERE ARE NO PRODUCT WITH THIS ID {"timestamp":"2025-03-08T14:55:10.174Z"}

@@ -141,3 +141,133 @@
 [34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-02-25T11:51:57.509Z"}
 [34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-02-26T10:27:42.588Z"}
 [31mfatal[39m: GET /api/product - READ ECONNRESET {"timestamp":"2025-02-26T19:24:57.869Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-02-27T13:30:03.941Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T10:43:03.439Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T11:31:33.976Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T11:39:03.770Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T11:47:24.012Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T11:47:42.201Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T11:50:50.432Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T11:53:54.635Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T12:12:24.010Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T12:36:31.887Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T12:55:52.868Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T13:56:46.254Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T14:19:29.797Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T14:19:45.517Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T14:19:57.465Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T19:57:35.540Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T19:58:53.487Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T20:07:54.371Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T20:08:32.465Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T20:08:45.823Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T20:09:03.787Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T20:09:11.824Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T20:10:32.228Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T20:10:54.875Z"}
+[31mfatal[39m: POST /api/order - CORS ERROR {"timestamp":"2025-03-04T20:16:55.387Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T20:17:14.536Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T20:18:27.762Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T20:19:11.663Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T20:22:22.714Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T20:23:00.884Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T20:42:35.999Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T20:49:54.803Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T20:50:27.839Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T21:00:15.996Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T21:14:30.411Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T21:42:42.686Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T22:31:16.211Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-04T22:45:16.019Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-05T10:26:07.364Z"}
+[31mfatal[39m: GET /api/product - CORS ERROR {"timestamp":"2025-03-05T12:10:17.702Z"}
+[31mfatal[39m: GET /api/product - CORS ERROR {"timestamp":"2025-03-05T12:10:20.829Z"}
+[31mfatal[39m: GET /api/product - CORS ERROR {"timestamp":"2025-03-05T12:10:27.266Z"}
+[31mfatal[39m: GET /api/product - CORS ERROR {"timestamp":"2025-03-05T12:10:44.337Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-05T12:10:51.995Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-05T15:25:00.350Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-05T15:46:03.493Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-06T14:22:22.222Z"}
+[31mfatal[39m: GET /api/product - CORS ERROR {"timestamp":"2025-03-06T14:37:13.172Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-06T14:37:32.138Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T14:51:29.092Z"}
+[33merror[39m: GET /api/order - THERE ARE NO ORDERS YET {"timestamp":"2025-03-07T14:51:29.158Z"}
+[33merror[39m: GET /api/order - THERE ARE NO ORDERS YET {"timestamp":"2025-03-07T14:51:37.586Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T14:52:21.664Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T14:52:34.567Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T14:52:48.972Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T14:52:57.636Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T14:53:04.296Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T14:53:07.616Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T14:53:39.761Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T14:53:42.711Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T14:53:49.763Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T14:54:45.491Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T14:56:14.331Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T14:57:51.419Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T14:58:17.770Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T14:58:36.671Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T15:00:59.960Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T15:02:38.502Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T15:02:57.084Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T15:03:11.805Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T15:03:26.940Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T15:06:53.642Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T15:07:12.627Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T15:08:15.841Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T15:08:23.934Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T15:11:34.296Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T15:11:44.933Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T15:14:41.691Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-07T15:21:11.040Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T13:55:07.264Z"}
+[31mfatal[39m: GET /api/product - CORS ERROR {"timestamp":"2025-03-08T13:55:15.821Z"}
+[31mfatal[39m: POST /api/product - CORS ERROR {"timestamp":"2025-03-08T13:55:15.846Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T13:55:40.244Z"}
+[31mfatal[39m: GET /api/product - CORS ERROR {"timestamp":"2025-03-08T13:55:42.415Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T13:55:57.231Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T13:56:09.459Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T13:57:17.972Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T13:57:46.466Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T13:57:59.042Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T13:58:40.839Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:01:28.969Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:02:26.960Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:25:41.299Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:26:11.759Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:26:47.867Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:27:32.144Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:28:28.534Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:29:27.932Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:31:50.485Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:31:57.000Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:32:58.006Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:33:52.765Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:34:23.744Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:34:26.799Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:36:46.717Z"}
+[31mfatal[39m: GET /api/product/67cc536f5e434e6fc638002 - CAST TO OBJECTID FAILED FOR VALUE "67CC536F5E434E6FC638002" (TYPE STRING) AT PATH "_ID" FOR MODEL "PRODUCT" {"timestamp":"2025-03-08T14:37:30.547Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:38:19.603Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:38:57.024Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:41:56.748Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:42:21.689Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:44:08.643Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:44:27.562Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:45:26.773Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:46:26.013Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:46:35.732Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:47:59.615Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:49:08.312Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:50:14.114Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:50:43.842Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:50:48.879Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:51:38.462Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:51:49.246Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:52:18.735Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:52:47.654Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:52:53.937Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:53:16.112Z"}
+[33merror[39m: DELETE /api/product/67cc5816f1e591c3b94865dc - THERE ARE NO PRODUCT WITH THIS ID {"timestamp":"2025-03-08T14:54:23.410Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:55:03.700Z"}
+[33merror[39m: DELETE /api/product/67cc5816f1e591c3b94865dc - THERE ARE NO PRODUCT WITH THIS ID {"timestamp":"2025-03-08T14:55:10.174Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T14:56:51.526Z"}

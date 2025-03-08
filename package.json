@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "dev:api": "nodemon src/index.js --api",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "test": "mocha test/**/*.test.js"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +26,9 @@
     "winston": "^3.17.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "chai": "^5.2.0",
+    "mocha": "^11.1.0",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.0.0"
   }
 }

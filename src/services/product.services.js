@@ -60,4 +60,16 @@ export class ProductService {
       others: Array.isArray(data.others) ? data.others : [],
     };
   }
+
+  static async getProductById(id) {
+    const product = await ProductRepository.getProductById(id);
+    if (!product) return CustomError.newError(errors.notFound, "There are no product with this ID");
+    return product;
+  }
+
+  static async deleteProductById(id) {
+    const product = await ProductRepository.deleteProductById(id);
+    if (!product) return CustomError.newError(errors.notFound, "There are no product with this ID");
+    return product;
+  }
 }
