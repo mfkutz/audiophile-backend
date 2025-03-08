@@ -22,4 +22,10 @@ export class OrderServices {
     if (!order) return CustomError.newError(errors.notFound, "Order not found");
     return order;
   }
+
+  static async deleteOrderById(id) {
+    const order = await OrderRepository.deleteById(id);
+    if (!order) return CustomError.newError(errors.notFound, "Order not found");
+    return order;
+  }
 }

@@ -32,4 +32,14 @@ export class OrderController {
       next(error);
     }
   }
+
+  static async deleteOrderById(req, res, next) {
+    try {
+      const { id } = req.params;
+      const order = await OrderServices.deleteOrderById(id);
+      res.status(200).json({ message: "Order deleted", order });
+    } catch (error) {
+      next(error);
+    }
+  }
 }

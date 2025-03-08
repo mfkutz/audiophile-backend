@@ -87,3 +87,37 @@ export let productToCreate = {
     },
   ],
 };
+
+export let createOrder = {
+  customer: {
+    name: "Martin Kutzner",
+    email: "test@gmail.com",
+    phoneNumber: "+5435100000",
+    address: "Quiróz 2348",
+    zipCode: "5003",
+    city: "Bahía blanca",
+    country: "Cordoba",
+  },
+  payment: {
+    eMoneyNumber: "",
+    eMoneyPin: "",
+  },
+  orderItems: [
+    {
+      productId: "67aba5a8216fbbfa583ce28e",
+      name: "ZX9 Speaker",
+      unitPrice: 4500,
+      imageUrl: "./assets/product-zx9-speaker/mobile/image-product.jpg",
+      quantity: 1,
+    },
+    {
+      productId: "67aba52906c03bc37b566acb",
+      name: "YX1 Wireless Earphones",
+      unitPrice: 599,
+      imageUrl: "./assets/product-yx1-earphones/mobile/image-product.jpg",
+      quantity: 2,
+    },
+  ],
+  totalAmount: 5748,
+  shippingCost: 50,
+};

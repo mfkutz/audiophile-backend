@@ -9,5 +9,6 @@ const router = Router();
 router.post("/", orderLimiter, validateCreateOrder, handleInputErrors, OrderController.createOrder);
 router.get("/", OrderController.getAll);
 router.get("/:id", OrderController.getOrderById);
+router.delete("/:id", OrderController.deleteOrderById);
 
 export default router;

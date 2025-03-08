@@ -12,4 +12,8 @@ export class OrderRepository {
   static async getById(orderId) {
     return await OrderModel.findById(orderId);
   }
+
+  static async deleteById(id) {
+    return await OrderModel.findByIdAndDelete(id);
+  }
 }
