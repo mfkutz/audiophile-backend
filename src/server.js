@@ -18,6 +18,7 @@ app.use(cors(corsConfig));
 app.use(morgan("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.set("trust proxy", 1);
 
 //Limit rate force brute, allways before general routes
 applyRateLimit(app);

@@ -307,3 +307,6 @@
 [34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T21:32:51.236Z"}
 [34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T21:34:46.337Z"}
 [33merror[39m: GET /api/order - THERE ARE NO ORDERS YET {"timestamp":"2025-03-08T21:34:58.840Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T21:35:33.602Z"}
+[31mfatal[39m: GET /api/product - CORS ERROR {"timestamp":"2025-03-08T21:39:43.398Z"}
+[34minfo[39m: Mongo Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2025-03-08T22:26:11.548Z"}
